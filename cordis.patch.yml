@@ -1,0 +1,5 @@
+# dsh-cross-bundle-drift: one row on the profile panel, no page of its own.
+- insert:
+    - id: dsh-cross-bundle-drift
+      name: dsh-cross-bundle-drift
+      inject: [webServer, connection, profileSlots]
