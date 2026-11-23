@@ -1,0 +1,24 @@
+{
+  "name": "dsh-cross-bundle-drift",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Cross half of the bundle drift check: compares each installed github bundle with the commit it was installed from, by blob hash, without downloading. Registers one row on the profile panel's feature slot board.",
+  "license": "MIT",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "lib/*.mjs",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "scripts": {
+    "check": "node --check index.js"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
