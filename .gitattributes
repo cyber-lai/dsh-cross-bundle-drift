@@ -1,0 +1,2 @@
+# 存储一律 LF：Windows 侧的 proxy 提交曾把整仓翻成 CRLF，与安装侧不一致
+* text=auto eol=lf
